@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/37eb582c44.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body>
+    <nav>
+        <div class="Logo">
+            <h4>LaSallian Youth</h4>
+            <p class="moto">Be the change</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="objectives.html">Objectives</a></li>
+            <li><a href="livinglassalian.html">Living LaSallian</a></li>
+        </ul>
+        <div class="menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div class="background-img">
+    </div>
+    <div class="bg-text">
+        <h1>LaSallain Youth</h1>
+        <p>Be the change</p>
+    </div>
+    <div class="Landing">
+        <img class="landing-img" src="assets/logo.png">
+        <p>We all know the saying the youth is the future... 
+            and that is where LaSallian Youth's inspiration comes from. 
+            LSY provides ways to educate and nurture the future leaders and trendsetters into young people that are receptive, 
+            respectful and open-minded.</p>
+    </div>
+    <div class="counter-up">
+        <div class="content">
+            <div class="box">
+                <div class="icon"><i class="fa fa-history"></i></div>
+                <div class="counter">1000</div>
+                <div class="add">+</div>
+                <div class="text">Schools</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-history"></i></div>
+                <div class="counter">83</div>
+                <div class="text">Diffrent Countires</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-history"></i></div>
+                <div class="counter">500,000</div>
+                <div class="add">+</div>
+                <div class="text">Students</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $(`.counter`).counterUp({
+                delay: 2.5,
+                time: 300
+            });
+        });
+    </script>
+    <div class="picture-wall">
+        <img class="qouter-img" src="assets/qoute.png">
+        <img class="picl" src="assets/home1.jpg">
+        <p class="qouter">LSY is a truly memorable experience, and it is a place where you can learn from the experiences of others and make new friends.</p>
+        <p class="namer">Alexia De Abeuru</p>
+        <img class="qoutel-img" src="assets/qoute.png">
+        <img class="picr" src="assets/home2.jpg">
+        <p class="qoutel">Helps you build friendships and LSY is fun.</p>
+        <p class="namel">Michael Bekker</p>
+        <img class="qouter-img" src="assets/qoute.png">
+        <img class="picl" src="assets/home3.jpg">
+        <p class="qouter">LSY is an inclusive, fun environment which allows for younger and older students alike, to develop relationships with each other and enjoy activities out of the classroom.</p>
+        <p class="namer">Ryan Fallon</p>
+        <img class="qoutel-img" src="assets/qoute.png">
+        <img class="picr" src="assets/home4.jpg">
+        <p class="qoutel">Lsy is a beautiful way to express what you feel without being judged for it.</p>
+        <p class="namel">Adam Baron</p>
+        <img class="qouter-img" src="assets/qoute.png">
+        <img class="picl" src="assets/home5.jpg">
+        <p class="qouter">LSY is a place where I've been exposed to people form other grades and from this been able to learn form them.</p>
+        <p class="namer">Ronaldo Gomes</p>
+    </div>
+    <div class="video-block">
+        <video width="85%" height="auto" controls>
+            <source src="https://drive.google.com/u/0/uc?id=1r6X5Qyc9jsQU8pzdYVXfBMJJKguOV8i8&export=download" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+    </div>
+    <div style="height: 50vh;"></div>
+    <footer>
+        <div class="socials">
+            <ul>
+                <li><a href="https://www.facebook.com/DLSHCC/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCmk1arPdtpK6-HQjO13l8Pg"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/dlshcc/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/DLSHCC"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <img src="assets/logo.png" alt="">
+        <p class="copyright">Copyright © 2021 Joash Paul. All rights reserved <br> jpaul@students.dlshcch.co.za</p>
+    </footer>
+</body>
+</html>
