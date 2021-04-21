@@ -204,6 +204,7 @@ nav{
     font-size: 1.7em;
     font-family: 'Lobster', cursive;
     margin-right: 10vw;
+    margin-top: 10vh;
 }
 
 .bg-text p{
@@ -523,3 +524,152 @@ footer img{
     font-size: 1.2em;
     font-family: sans-serif;
 }
+
+.History-landing{
+    padding-top: 10vh;
+}
+
+.History-landing p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+}
+
+.History-landing h1{
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+}
+
+.our-founder h2{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e6e6e6
+}
+
+.our-founder .delasallepic{
+    height: 50vh;
+    width: auto;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    border: 1.7vh solid #888888;
+}
+
+.our-founder .delasalletext{
+    padding-left: 30vw;
+    margin-top: -40vh;
+}
+
+.our-founder p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7em;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: #e6e6e6;
+}
+
+.our-founder{
+    margin-top: 15vh;
+    height: 80vh;
+    background: #5D4954;
+    padding-top: 5vh;
+}
+
+.pricipletext{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5D4954;
+}
+
+.circle{
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    background:white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #888888;
+    box-shadow: inset -1px -1px 2px rgba(0,0,0, 0.2), 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.principle{
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.priciples{
+    display: flex;
+    align-items: center;
+    margin-right: 5vw;
+}
+
+.principle p{
+    margin-top: 1.7vh;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width: 1300px){
+    .our-founder h2{
+        text-align: center;
+    }
+    .our-founder .delasallepic{
+        align-items: ce;
+    }
+    .our-founder p{
+        text-align: center;
+        padding-left: 5vw;
+        margin-top: 5vh;
+    }
+    .our-founder .delasalletext{
+        text-align: center;
+        padding-left: 5vw;
+        margin-top: 5vh;
+    }
+    .our-founder{
+        height: auto;
+        padding-bottom: 5vh;
+    }
+    .our-founder .delasallepic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .priciples{
+        display: grid;
+    }
+
+    .circle{
+        position: relative;
+        width: 17vh;
+        height: 17vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .principle{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}
+
