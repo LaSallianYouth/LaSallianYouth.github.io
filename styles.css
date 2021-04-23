@@ -697,7 +697,8 @@ footer img{
 }
 
 .ob-imager{
-    margin-left: 55vw;
+    margin-left: 50vw;
+    margin-top: 5vh;
     width: 40vw;
     height: auto;
     box-shadow: -3vw 5vh #e6e6e6;
