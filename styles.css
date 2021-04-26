@@ -819,3 +819,33 @@ footer img{
     transform: translate(-50%, -50%);
     width: 100%;
   }
+
+.container-button{
+    text-align: center;
+}
+
+.learn-more{
+    background-color: #5D4954;
+    border: none;
+    color: whitesmoke;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.5s;
+    list-style: none;
+}
+
+.learn-more:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.container-button{
+    margin-bottom: 20vh;
+    list-style: none;
+}
+
+.button-text{
+    list-style: none;
+}

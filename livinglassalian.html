@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/37eb582c44.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon.png"/>
 </head>
 <body style="height: auto;">
     <nav>
@@ -19,7 +20,7 @@
             <p class="moto">Be the change</p>
         </div>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="history.html">History</a></li>
             <li><a href="objectives.html">Objectives</a></li>
             <li><a href="livinglassalian.html">Living LaSallian</a></li>
@@ -32,29 +33,20 @@
     </nav>
     <div class="History-landing" style="padding-top: 10vh; padding-bottom: 5vh;">
         <h1>Living Lassalian</h1>
-        <p>LaSallian living is more a life of service. Here are some places you can offer your sevice</p>
+        <p>LaSallian living is more a life of service. Here are some places you can offer your sevice. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, eaque neque. Laboriosam, quidem quasi asperiores atque expedita, nihil sequi corporis ea possimus aliquid dignissimos sunt rep. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sit placeat debitis, sint dolorum molestias quod possimus nisi earum repudiandae, expedita voluptates ipsum neque laudantium. Quia totam at dolorum laborum.</p>
     </div>
-    <div class="tab">
-        <div class="center">
-            <button class="tablinks" onclick="openCity(event, 'volenteerworld')">Volenteer World</button>
-            <button class="tablinks" onclick="openCity(event, 'forgood')">For Good</button>
-            <button class="tablinks" onclick="openCity(event, 'communityhours')">Comunity Hours</button>
-        </div>
+    <div class="container-button">
+        <button class="learn-more" onclick="window.location.href=`https://www.communityhourssa.co.za/`">
+          <span class="button-text">Comuity Hours SA</span>
+        </button>
+        <button class="learn-more" onclick="window.location.href=`https://www.volunteerworld.com`">
+            <span class="button-text">Volunteer World</span>
+          </button>
+          <button class="learn-more" onclick="window.location.href=`https://www.forgood.co.za/`">
+            <span class="button-text">For Good</span>
+          </button>
     </div>
-    <div id="volenteerworld" class="tabcontent">
-        <h3>Volenteer World</h3>
-        <iframe style="height: 90vh; width: 100%;" src="https://www.volunteerworld.com" frameborder="0"></iframe>
-    </div>
-      
-    <div id="forgood" class="tabcontent">
-        <iframe style="height: 90vh; width: 100%;" src="https://www.goodhopevolunteers.com" frameborder="0"></iframe>
-    </div>
-      
-    <div id="communityhours" class="tabcontent">
-        <iframe style="height: 90vh; width: 100%;" src="https://www.communityhourssa.co.za/ " frameborder="0"></iframe>
-    </div>
-</div>
-<footer style="margin-top: 10vh;">
+<footer >
     <div class="socials">
         <ul>
             <li><a href="https://www.facebook.com/DLSHCC/"><i class="fab fa-facebook-f"></i></a></li>
