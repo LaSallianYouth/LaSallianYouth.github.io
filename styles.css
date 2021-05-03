@@ -874,3 +874,25 @@ footer img{
     margin-right: 5vw;
     margin-bottom: 5vh;
 }
+
+.creed{
+    padding-bottom: 5vh;
+    text-align: center;
+    margin-top: -10vh;
+    padding-top: 5vh;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10vh;
+    background-color: #5D4954;
+    color: #e6e6e6;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.2em;
+}
+
+.creed h3{
+    margin-top: 2.5vh;
+}
+
+.creed p{
+    padding-top: 1vh;
+}
